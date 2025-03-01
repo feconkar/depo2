@@ -47,7 +47,7 @@ def create_radar_chart(df, player1, player2, stats):
     return fig
 
 def main():
-    st.title("Oyuncu Gelişim Aplikasyonu")
+    st.title("Oyuncu Gelişim Takip Uygulaması")
 
     df = load_data()
 
